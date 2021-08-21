@@ -39,11 +39,11 @@ document.getElementById('SSD-1TB').addEventListener('click', function () {
 
 // delivery cost
 
-// 28 august 
+// 28 August 
 document.getElementById('delivery-Aug-28').addEventListener('click', function () {
     memory('delivery-cost', 0);
 });
-// 20 aug 
+// 20 August 
 document.getElementById('delivery-Aug-20').addEventListener('click', function () {
 
     memory('delivery-cost', 20);
@@ -82,7 +82,7 @@ document.getElementById('apply-code').addEventListener('click', function () {
         const discount = totalPrice - ((totalPrice * 20) / 100);
         lastTotalPrice.innerText = discount;
     }
-    else{
+    else {
         window.alert('Invalid Promo Code');
     }
     applyField.value = '';
